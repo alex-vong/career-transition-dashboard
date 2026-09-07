@@ -5,6 +5,11 @@ let state = JSON.parse(localStorage.getItem(stateKey) || '{"tasks":{}}');
 
 function save(){ localStorage.setItem(stateKey, JSON.stringify(state)); }
 function ensureTask(id){ if(!state.tasks[id]) state.tasks[id]={done:false,checks:{},notes:""}; return state.tasks[id]; }
+function formatDate(task){
+  if(!task.date) return task.day;
+  const d=new Date(`${task.date}T12:00:00`);
+  return d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric"});
+}
 
 function renderStats(){
   const cats=["PM / CAPM","Technical","Portfolio","Job Search"];
@@ -28,7 +33,7 @@ function makeTask(task){
   el.classList.toggle("done",s.done);
   el.querySelector(".task-title").textContent=task.title;
   el.querySelector(".minutes").textContent=`${task.minutes} min`;
-  el.querySelector(".meta").textContent=`${task.day} · ${task.category}`;
+  el.querySelector(".meta").textContent=`${formatDate(task)} · ${task.category}`;
   el.querySelector(".details").textContent=task.details;
   const main=el.querySelector(".task-check");
   main.checked=s.done;
@@ -50,7 +55,7 @@ function renderDaily(){
   const root=document.getElementById("daily");root.innerHTML="";
   const firstUndone=data.tasks.find(t=>!ensureTask(t.id).done) || data.tasks[0];
   const hero=document.createElement("div");hero.className="today-hero";
-  hero.innerHTML=`<div class="kicker">Next recommended task</div><h2>${firstUndone.title}</h2><div>${firstUndone.day} · ${firstUndone.minutes} min · ${firstUndone.category}</div>`;
+  hero.innerHTML=`<div class="kicker">Next recommended task</div><h2>${firstUndone.title}</h2><div>${formatDate(firstUndone)} · ${firstUndone.minutes} min · ${firstUndone.category}</div>`;
   root.appendChild(hero);
   root.appendChild(makeTask(firstUndone));
 }
