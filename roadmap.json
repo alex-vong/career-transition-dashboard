@@ -9,8 +9,13 @@
       "title": "Design career project structure",
       "category": "PM / CAPM",
       "minutes": 60,
-      "details": "Define the four workstreams: PM/CAPM, Technical Skills, Portfolio, and Job Search.",
-      "checklist": ["Define 4 workstreams","Confirm March 2027 target","Set weekly time budget around 7 hours","Keep Friday as normal rest day"]
+      "details": "Set the structure, target, weekly schedule, and boundaries for your Career Transition 2026–27 project. Complete each section below only after its specific steps are done.",
+      "checklist": [
+        {"title":"Define the 4 workstreams","description":"Understand what each major area of your career-transition project is responsible for and how the four areas work together.","steps":["Understand workstream: a major category of related work inside a larger project.","PM / CAPM: build project-management knowledge, learn PM terminology and methods, prepare for CAPM, and practice with Jira and Confluence.","Technical Skills: strengthen job-ready IT knowledge through Network+, Microsoft 365, Entra ID, Active Directory, Intune, PowerShell, SQL and APIs.","Portfolio: create evidence of your work through the Mikan IT Implementation, TikTok Go rollout, Career Transition Dashboard and professional portfolio website.","Job Search: convert your new knowledge and project evidence into applications, interviews and a new role.","Confirm the connection: PM knowledge + technical skills + portfolio evidence feed the Job Search workstream and support the March 2027 goal."]},
+        {"title":"Confirm the March 2027 target","description":"Define exactly what success means so March is a real project target rather than an arbitrary date.","steps":["Set March 2027 as the target deadline for landing a new position, while applying before then whenever a good role appears.","Primary target: IT Project Coordinator, Technology Project Coordinator, Associate/Junior PM or another PM-track technology role.","Secondary target: Systems Analyst, IT Analyst, Applications/Business Systems Analyst or similar project-oriented analyst role.","Keep strong IT Support Analyst or Technical Support Analyst roles open when the schedule, growth and responsibilities fit your goals.","Continue targeting government and public-sector technology roles, but do not wait for a government opening before pursuing a strong private-sector opportunity.","Define success as landing a better-fit role. Certifications and completed courses are supporting deliverables, not the final project outcome."]},
+        {"title":"Set a sustainable weekly time budget","description":"Create a repeatable learning and project schedule of roughly 7–8 hours per week that can coexist with your full-time job and personal life.","steps":["Monday: about 1 hour for PM/CAPM learning and career-project planning.","Tuesday: about 1 hour for hands-on project work such as Jira, beginning with the live TikTok Go project.","Wednesday: about 1 hour for PM, certification or technical learning based on the current monthly focus.","Thursday: about 1 hour for a hands-on lab, PM artifact or documentation exercise.","Friday: no required career-transition work. Treat it as the normal rest/buffer day.","Saturday: about 2 hours for deeper project, portfolio or technical lab work.","Sunday: about 1–2 hours for job applications, weekly review and preparing the next week.","Confirm this schedule feels sustainable. If work or life interrupts a day, move the task instead of treating the schedule as a failure."]},
+        {"title":"Protect Friday as the normal rest day","description":"Create an intentional recovery/buffer day so the career plan remains sustainable for several months instead of becoming another seven-day obligation.","steps":["Do not schedule required CAPM study on Friday.","Do not schedule required technical labs on Friday.","Do not schedule required portfolio work or job applications on Friday.","Use Friday for catch-up only when you voluntarily choose to and have the time/energy.","Do not automatically move every missed task to Friday. Reschedule it to another appropriate block or the following week.","Treat Friday rest as part of the project plan, not as lost productivity."]}
+      ]
     },
     {
       "id": "sep-w1-2-build-jira-career-transition-project",
@@ -18,123 +23,34 @@
       "week": "Week 1",
       "day": "Tuesday",
       "date": "2026-09-08",
-      "title": "Build Jira career-transition project",
+      "title": "Build the TikTok Go project in Jira",
       "category": "PM / CAPM",
       "minutes": 60,
-      "details": "Create the Jira project that will become the main execution board after this dashboard.",
-      "checklist": ["Create project: Career Transition 2026–27","Create workflow/backlog","Create This Month / This Week","Create In Progress / Blocked / Complete","Add labels for CAPM, Network+, M365, Entra, AD, PowerShell, Portfolio, Applications"]
+      "details": "Use your active TikTok Go voucher rollout as your first hands-on Jira planning project. Build it together step by step while learning why a PM structures the work this way.",
+      "checklist": [
+        {"title":"Create the Jira project","description":"Start a dedicated Jira project for the live TikTok Go rollout so project work, ownership and status can be tracked in one place.","steps":["Open Jira and create a new project. We will choose the project type together before committing to a template.","Name the project clearly, such as TikTok Go Voucher Rollout.","Use a short recognizable project key such as TTGO if Jira asks for one.","Before adding lots of issues, review the empty project so you understand where the board, backlog and project settings live."]},
+        {"title":"Define the project objective and scope","description":"Write down what the rollout is trying to accomplish and what work is included before turning every request into a Jira task.","steps":["Objective: enable participating locations to accept TikTok Go promotional vouchers correctly and consistently.","Include location tablet/app readiness, menu-set programming, POS discount/redemption workflow, manager coordination, staff training, launch coordination and post-launch support.","Identify anything explicitly outside your responsibility so the Jira plan does not imply that you personally own Marketing, TikTok or Operations work."]},
+        {"title":"Create the major work areas","description":"Break the rollout into understandable groups of related work before creating individual tasks.","steps":["Location & Device Readiness: confirm each location has a compatible tablet and can access the required app store.","POS & Menu Configuration: program the menu sets and make sure the voucher/discount process can be executed at the POS.","Manager & Staff Readiness: coordinate the manager meeting, instructions and staff training.","Marketing & TikTok Launch Coordination: track the information and timing Marketing needs to communicate to TikTok for go-live.","Testing & Go-Live: verify the end-to-end redemption process and define when a location is ready to launch.","Post-Launch Support: capture launch issues, fixes and lessons learned."]},
+        {"title":"Create the first Jira issues","description":"Turn the known project work into trackable items with clear outcomes instead of vague reminders.","steps":["Create an issue for confirming the participating location list.","Create an issue for checking tablet/app-store compatibility at every participating location.","Create an issue for installing or confirming access to the TikTok merchant application.","Create an issue for programming and validating each promotional menu set.","Create an issue for documenting the manager voucher-redemption/POS process.","Create an issue for the manager project meeting and required attendees.","Create an issue for staff training and communication.","Create an issue for Marketing/TikTok launch-date confirmation.","Create an issue for end-to-end voucher redemption testing before go-live."]},
+        {"title":"Identify dependencies, risks and owners","description":"Learn to look beyond the task list by identifying what must happen first, what could block launch and who actually owns each piece of work.","steps":["Map the readiness chain: participating location confirmed → compatible tablet → merchant app access → manager trained → location ready.","Record the risk that a location tablet is locked, incompatible or cannot access the required app store.","Record the risk that menu/POS configuration is incomplete or does not match the voucher offer.","Record the risk that managers or staff are not trained before customers begin presenting vouchers.","Identify whether IT, Marketing, TikTok, Operations, a manager or another party owns each major item. Do not assign yourself ownership of work you only coordinate.","Review the board and confirm that someone unfamiliar with the project could understand what is happening next."]}
+      ]
     },
     {
       "id": "sep-w1-3-build-confluence-workspace",
-      "month": "September 2026",
-      "week": "Week 1",
-      "day": "Wednesday",
-      "date": "2026-09-09",
-      "title": "Build Confluence workspace",
-      "category": "PM / CAPM",
-      "minutes": 60,
-      "details": "Create the documentation side of the project so Jira tracks work while Confluence stores knowledge and artifacts.",
-      "checklist": ["Master Career Roadmap","Weekly Learning Notes","CAPM Notes","Technical Notes","Mikan PM Case Study","TikTok Go PM Case Study","Professional Portfolio","Interview Preparation","Lessons Learned"]
-    },
-    {
-      "id": "sep-w1-4-pm-foundations-project-lifecycle",
-      "month": "September 2026",
-      "week": "Week 1",
-      "day": "Thursday",
-      "date": "2026-09-10",
-      "title": "PM foundations: project lifecycle",
-      "category": "PM / CAPM",
-      "minutes": 60,
-      "details": "Learn project vs operations, lifecycle phases, scope, schedule, cost, risk, stakeholders, and deliverables.",
-      "checklist": ["Project vs operations","Initiation","Planning","Execution","Monitoring / control","Closing"]
-    },
-    {
-      "id": "sep-w1-5-networkplus-foundation-session",
-      "month": "September 2026",
-      "week": "Week 1",
-      "day": "Saturday",
-      "date": "2026-09-12",
-      "title": "Network+ foundation session",
-      "category": "Technical",
-      "minutes": 60,
-      "details": "Focus on networking concepts directly useful for support analyst and systems roles.",
-      "checklist": ["OSI vs TCP/IP","LAN vs WAN","Switch vs router vs firewall","DNS","DHCP","IP addressing basics"]
-    },
-    {
-      "id": "sep-w1-6-mikan-project-reconstruction",
-      "month": "September 2026",
-      "week": "Week 1",
-      "day": "Saturday",
-      "date": "2026-09-12",
-      "title": "Mikan project reconstruction",
-      "category": "Portfolio",
-      "minutes": 60,
-      "details": "Reconstruct the Mikan Bakery IT implementation from a PM perspective without pretending documents existed at the time.",
-      "checklist": ["Project objective","Your exact responsibilities","Stakeholders","Vendors","Systems deployed","Problems / risks","Go-live outcome"]
-    },
-    {
-      "id": "sep-w1-7-job-search-session",
-      "month": "September 2026",
-      "week": "Week 1",
-      "day": "Sunday",
-      "date": "2026-09-13",
-      "title": "Job-search session",
-      "category": "Job Search",
-      "minutes": 120,
-      "details": "Start the application funnel now rather than waiting until certifications are complete.",
-      "checklist": ["Search PM/project coordinator family","Search IT support/analyst family","Check government/public-sector boards","Submit 2–3 strong applications","Log every application and next step"]
-    },
-    {
-      "id": "sep-w2-1-tiktok-go-live-project-capture",
-      "month": "September 2026",
-      "week": "Week 2",
-      "day": "Monday",
-      "date": "2026-09-14",
-      "title": "Capture TikTok Go as a live PM case study",
-      "category": "Portfolio",
-      "minutes": 60,
-      "details": "Document the TikTok Go voucher rollout while the project is active. Capture your real coordination work without confidential information so it can later become a portfolio case study.",
-      "checklist": ["Write the business objective and success criteria","List stakeholders: IT, Marketing, TikTok, managers, store teams","Define scope: merchant app/tablet readiness, menu sets, POS discount workflow, launch coordination, training","Create a location readiness checklist","Create a risk and issue log","Track decisions, owners, dependencies and target dates"]
-    },
-    {
-      "id": "sep-w2-2-tiktok-go-project-plan",
-      "month": "September 2026",
-      "week": "Week 2",
-      "day": "Thursday",
-      "date": "2026-09-17",
-      "title": "Build TikTok Go rollout plan",
-      "category": "PM / CAPM",
-      "minutes": 60,
-      "details": "Turn the live TikTok Go work into a simple project plan that connects PM concepts to work you are actually doing.",
-      "checklist": ["Create phases: discovery, configuration, readiness, training, launch, post-launch support","Assign owners for each deliverable","Map dependencies before go-live","Define manager meeting agenda","Define staff training and communication plan","Create go-live readiness criteria"]
-    },
-    {
-      "id": "dec-w4-professional-portfolio-plan",
-      "month": "December 2026",
-      "week": "Week 4",
-      "day": "Saturday",
-      "date": "2026-12-26",
-      "title": "Plan professional portfolio website",
-      "category": "Portfolio",
-      "minutes": 60,
-      "details": "Plan a professional portfolio that becomes the central home for your experience, PM projects, technical projects, certifications, skills and resume.",
-      "checklist": ["Define portfolio audience and goal","Plan Home, About, Experience, Projects, Certifications, Skills and Resume sections","Choose which information must be sanitized","Choose project cards for Mikan, TikTok Go and Career Transition Dashboard","Create portfolio backlog in Jira","Document portfolio requirements and decisions in Confluence"]
-    },
-    {
-      "id": "jan-w1-build-professional-portfolio",
-      "month": "January 2027",
-      "week": "Week 1",
-      "day": "Saturday",
-      "date": "2027-01-02",
-      "title": "Build professional portfolio v1",
-      "category": "Portfolio",
-      "minutes": 120,
-      "details": "Build and publish the first version of your professional portfolio. Treat the portfolio itself as a project with requirements, milestones, backlog items and documented decisions.",
-      "checklist": ["Build responsive portfolio shell","Add professional experience","Add Mikan Bakery IT Implementation case study","Add TikTok Go voucher rollout case study","Add Career Transition Dashboard project","Add certifications and skills sections","Add resume section","Publish through GitHub and Cloudflare Pages"]
-    }
+      "month": "September 2026","week":"Week 1","day":"Wednesday","date":"2026-09-09","title":"Build Confluence workspace","category":"PM / CAPM","minutes":60,
+      "details":"Create the documentation side of the career project so Jira tracks actionable work while Confluence stores explanations, decisions, notes and reusable project artifacts.",
+      "checklist":[{"title":"Create the core Confluence pages","description":"Build a small, organized knowledge base rather than a collection of disconnected notes.","steps":["Create Master Career Roadmap for the overall goal, workstreams and timeline.","Create Weekly Learning Notes for concise summaries of what you learned and questions to revisit.","Create CAPM Notes and Technical Notes as separate study references.","Create Mikan PM Case Study and TikTok Go PM Case Study project areas.","Create Professional Portfolio for requirements, content decisions and build notes.","Create Interview Preparation and Lessons Learned pages so useful material is captured as you progress."]}]},
+    {"id":"sep-w1-4-pm-foundations-project-lifecycle","month":"September 2026","week":"Week 1","day":"Thursday","date":"2026-09-10","title":"PM foundations: understand the project lifecycle","category":"PM / CAPM","minutes":60,"details":"Learn how a project moves from an idea to an organized plan, active execution, controlled delivery and formal completion. Connect every concept to Mikan or TikTok Go rather than memorizing vocabulary alone.","checklist":[{"title":"Understand the lifecycle from start to finish","description":"Be able to explain what a PM is trying to accomplish during each stage and recognize the stage in a real project.","steps":["Project vs operations: understand why a temporary TikTok Go rollout is a project while ongoing restaurant support is operations.","Initiation: clarify the business need, objective, stakeholders and authorization to proceed.","Planning: define scope, tasks, schedule, responsibilities, dependencies, risks and communications.","Execution: perform and coordinate the planned work such as configuration, meetings and training.","Monitoring and control: compare actual progress with the plan, manage issues/risks and handle changes.","Closing: confirm acceptance/results, capture lessons learned and formally finish or transition the work to operations."]}]},
+    {"id":"sep-w1-5-networkplus-foundation-session","month":"September 2026","week":"Week 1","day":"Saturday","date":"2026-09-12","title":"Network+ foundation session","category":"Technical","minutes":60,"details":"Build the networking vocabulary needed to understand how devices communicate and to troubleshoot common support problems. Focus on understanding the flow, not memorizing definitions in isolation.","checklist":[{"title":"Build the networking foundation","description":"Finish when you can explain each concept in plain language and describe where it appears in a restaurant or office network.","steps":["Compare OSI and TCP/IP as models used to organize how network communication works.","Explain LAN vs WAN using a restaurant's local network and its connection to the wider internet as examples.","Explain switch vs router vs firewall and the different job each performs.","Understand DNS as the system that translates names into IP addresses.","Understand DHCP as the service that automatically provides devices with IP configuration.","Understand the purpose of an IPv4 address, subnet mask, default gateway and DNS server."]}]},
+    {"id":"sep-w1-6-mikan-project-reconstruction","month":"September 2026","week":"Week 1","day":"Saturday","date":"2026-09-12","title":"Reconstruct the Mikan IT implementation as a PM case study","category":"Portfolio","minutes":60,"details":"Capture what actually happened during the Mikan Bakery technology implementation and later translate it into formal PM artifacts. Clearly label reconstructed artifacts rather than implying they existed during the original project.","checklist":[{"title":"Capture the factual project story","description":"Document enough factual information to build a credible case study without exposing confidential company information.","steps":["Write the business/project objective in one or two sentences.","List your actual responsibilities and distinguish coordination from work owned by other teams/vendors.","List stakeholder groups and vendors by role where naming them is unnecessary.","List the systems/equipment that were part of the implementation.","Record major dependencies, problems, risks and decisions you remember.","Describe go-live and the outcome using facts you can support.","Remove passwords, IP addresses, credentials, contracts, private employee data and other confidential information."]}]},
+    {"id":"sep-w1-7-job-search-session","month":"September 2026","week":"Week 1","day":"Sunday","date":"2026-09-13","title":"Run the weekly job-search session","category":"Job Search","minutes":120,"details":"Build the application pipeline now instead of waiting for certifications or the portfolio to be finished. Prioritize quality applications while learning which skills and titles employers repeatedly request.","checklist":[{"title":"Search, evaluate and submit targeted applications","description":"Finish the session with real applications submitted and useful market information captured for the learning roadmap.","steps":["Search the PM family: IT Project Coordinator, Technology Project Coordinator, Associate/Junior PM and related roles.","Search the analyst/support family: Systems Analyst, IT Analyst, Application/Business Systems Analyst and strong IT Support Analyst roles.","Check relevant government and public-sector boards in addition to private employers.","Compare each promising posting against your current experience before deciding whether to apply.","Submit 2–3 strong applications when suitable openings exist rather than mass-applying blindly.","Record company/agency, title, date, link/source, status and next step for every application.","Capture repeated requirements you are missing so future learning can be adjusted based on real job-market evidence."]}]},
+    {"id":"sep-w2-1-tiktok-go-live-project-capture","month":"September 2026","week":"Week 2","day":"Monday","date":"2026-09-14","title":"Capture TikTok Go as a live PM case study","category":"Portfolio","minutes":60,"details":"Document the TikTok Go voucher rollout while the project is active so the final case study is based on real decisions and events rather than memory.","checklist":[{"title":"Create the live project record","description":"Capture the project's objective, people, boundaries, readiness requirements and current uncertainty without including confidential company information.","steps":["Write the business objective and measurable success criteria.","List stakeholder groups including IT, Marketing, TikTok, managers and store teams and note what each needs from the project.","Document scope covering merchant app/tablet readiness, menu sets, POS discount workflow, launch coordination and training.","Create a per-location readiness checklist with a clear Ready/Not Ready definition.","Create separate risk and issue logs so possible future problems are not confused with problems already happening.","Track important decisions, owners, dependencies and target dates as they occur."]}]},
+    {"id":"sep-w2-2-tiktok-go-project-plan","month":"September 2026","week":"Week 2","day":"Thursday","date":"2026-09-17","title":"Build the TikTok Go rollout plan","category":"PM / CAPM","minutes":60,"details":"Turn the live Jira work into a simple end-to-end rollout plan showing how the project moves from discovery through launch and support.","checklist":[{"title":"Create the rollout sequence","description":"Make the launch path understandable enough that stakeholders can see what must happen, who owns it and what defines readiness.","steps":["Create phases for discovery, configuration, location readiness, training, launch and post-launch support.","Assign an owner to each deliverable based on actual responsibility.","Map the dependencies that must be satisfied before go-live.","Create the manager meeting agenda including purpose, redemption process, device/app requirements, questions and next steps.","Define how staff will be trained and how changes/instructions will be communicated.","Create go-live readiness criteria so launch is based on completed requirements rather than assumptions."]}]},
+    {"id":"dec-w4-professional-portfolio-plan","month":"December 2026","week":"Week 4","day":"Saturday","date":"2026-12-26","title":"Plan professional portfolio website","category":"Portfolio","minutes":60,"details":"Plan a professional site that gives recruiters and hiring managers one place to understand your experience, projects, certifications, technical skills and resume.","checklist":[{"title":"Define and plan portfolio v1","description":"Create clear requirements before coding so the portfolio itself becomes another example of structured project delivery.","steps":["Define the primary audience and what you want a recruiter/hiring manager to understand within the first minute.","Plan Home, About, Experience, Projects, Certifications, Skills and Resume sections.","Define sanitization rules so professional examples do not expose employer-confidential information.","Plan project cards/case studies for Mikan, TikTok Go and the Career Transition Dashboard.","Create the portfolio build backlog in Jira with prioritized v1 requirements.","Document requirements, design decisions and changes in Confluence."]}]},
+    {"id":"jan-w1-build-professional-portfolio","month":"January 2027","week":"Week 1","day":"Saturday","date":"2027-01-02","title":"Build professional portfolio v1","category":"Portfolio","minutes":120,"details":"Build and publish the first usable version of the portfolio. Treat this as a real delivery milestone rather than waiting for every section to be perfect.","checklist":[{"title":"Build and publish the first release","description":"Finish with a responsive public portfolio that communicates your professional story and can be improved iteratively.","steps":["Build the responsive site shell and navigation.","Add concise professional experience with accurate responsibilities and scope.","Add the Mikan Bakery IT Implementation case study.","Add the TikTok Go voucher rollout case study.","Add the Career Transition Dashboard project and explain the problem, planning approach and technology used.","Add earned certifications and relevant skills without presenting in-progress certifications as completed.","Add a resume section with a current downloadable/viewable resume.","Publish through GitHub and Cloudflare Pages, test desktop/mobile, and record follow-up improvements in the backlog."]}]}
   ],
   "months": [
-    {"month":"September 2026","focus":"Foundation: PM fundamentals + Jira/Confluence + networking","items":["PM project structure + lifecycle","Core PM artifacts","Jira + Confluence workflow","Network+ fundamentals","Capture TikTok Go as a live PM case study","Mikan PM case study reconstruction","Weekly applications continue throughout"]},
+    {"month":"September 2026","focus":"Foundation: PM fundamentals + Jira/Confluence + networking","items":["PM project structure + lifecycle","Build the live TikTok Go project in Jira","Jira + Confluence workflow","Network+ fundamentals","Capture TikTok Go as a live PM case study","Mikan PM case study reconstruction","Weekly applications continue throughout"]},
     {"month":"October 2026","focus":"CAPM planning + Microsoft 365 + Entra ID","items":["Predictive planning + WBS","Schedule, risk + change control","Microsoft 365 administration","Entra ID identity lab","Develop Mikan and TikTok Go PM artifacts","Weekly applications continue throughout"]},
     {"month":"November 2026","focus":"Active Directory + Intune + PowerShell + CAPM","items":["Active Directory foundations","GPO + permissions + troubleshooting","Intune fundamentals","PowerShell fundamentals + automation","Refine portfolio-ready project evidence","Weekly applications continue throughout"]},
     {"month":"December 2026","focus":"Finish CAPM + build PM portfolio","items":["Agile, Scrum + Kanban","Business analysis for CAPM","CAPM practice + weak areas","Finish Mikan PM portfolio package","Finish TikTok Go PM case study","Plan professional portfolio website","Weekly applications continue throughout"]},
