@@ -34,7 +34,7 @@
       "category": "PM / CAPM",
       "minutes": 60,
       "details": "Create the documentation side of the project so Jira tracks work while Confluence stores knowledge and artifacts.",
-      "checklist": ["Master Career Roadmap","Weekly Learning Notes","CAPM Notes","Technical Notes","Mikan PM Case Study","Interview Preparation","Lessons Learned"]
+      "checklist": ["Master Career Roadmap","Weekly Learning Notes","CAPM Notes","Technical Notes","Mikan PM Case Study","TikTok Go PM Case Study","Professional Portfolio","Interview Preparation","Lessons Learned"]
     },
     {
       "id": "sep-w1-4-pm-foundations-project-lifecycle",
@@ -69,7 +69,7 @@
       "title": "Mikan project reconstruction",
       "category": "Portfolio",
       "minutes": 60,
-      "details": "Reconstruct the Mikan opening from a PM perspective without pretending documents existed at the time.",
+      "details": "Reconstruct the Mikan Bakery IT implementation from a PM perspective without pretending documents existed at the time.",
       "checklist": ["Project objective","Your exact responsibilities","Stakeholders","Vendors","Systems deployed","Problems / risks","Go-live outcome"]
     },
     {
@@ -83,15 +83,63 @@
       "minutes": 120,
       "details": "Start the application funnel now rather than waiting until certifications are complete.",
       "checklist": ["Search PM/project coordinator family","Search IT support/analyst family","Check government/public-sector boards","Submit 2–3 strong applications","Log every application and next step"]
+    },
+    {
+      "id": "sep-w2-1-tiktok-go-live-project-capture",
+      "month": "September 2026",
+      "week": "Week 2",
+      "day": "Monday",
+      "date": "2026-09-14",
+      "title": "Capture TikTok Go as a live PM case study",
+      "category": "Portfolio",
+      "minutes": 60,
+      "details": "Document the TikTok Go voucher rollout while the project is active. Capture your real coordination work without confidential information so it can later become a portfolio case study.",
+      "checklist": ["Write the business objective and success criteria","List stakeholders: IT, Marketing, TikTok, managers, store teams","Define scope: merchant app/tablet readiness, menu sets, POS discount workflow, launch coordination, training","Create a location readiness checklist","Create a risk and issue log","Track decisions, owners, dependencies and target dates"]
+    },
+    {
+      "id": "sep-w2-2-tiktok-go-project-plan",
+      "month": "September 2026",
+      "week": "Week 2",
+      "day": "Thursday",
+      "date": "2026-09-17",
+      "title": "Build TikTok Go rollout plan",
+      "category": "PM / CAPM",
+      "minutes": 60,
+      "details": "Turn the live TikTok Go work into a simple project plan that connects PM concepts to work you are actually doing.",
+      "checklist": ["Create phases: discovery, configuration, readiness, training, launch, post-launch support","Assign owners for each deliverable","Map dependencies before go-live","Define manager meeting agenda","Define staff training and communication plan","Create go-live readiness criteria"]
+    },
+    {
+      "id": "dec-w4-professional-portfolio-plan",
+      "month": "December 2026",
+      "week": "Week 4",
+      "day": "Saturday",
+      "date": "2026-12-26",
+      "title": "Plan professional portfolio website",
+      "category": "Portfolio",
+      "minutes": 60,
+      "details": "Plan a professional portfolio that becomes the central home for your experience, PM projects, technical projects, certifications, skills and resume.",
+      "checklist": ["Define portfolio audience and goal","Plan Home, About, Experience, Projects, Certifications, Skills and Resume sections","Choose which information must be sanitized","Choose project cards for Mikan, TikTok Go and Career Transition Dashboard","Create portfolio backlog in Jira","Document portfolio requirements and decisions in Confluence"]
+    },
+    {
+      "id": "jan-w1-build-professional-portfolio",
+      "month": "January 2027",
+      "week": "Week 1",
+      "day": "Saturday",
+      "date": "2027-01-02",
+      "title": "Build professional portfolio v1",
+      "category": "Portfolio",
+      "minutes": 120,
+      "details": "Build and publish the first version of your professional portfolio. Treat the portfolio itself as a project with requirements, milestones, backlog items and documented decisions.",
+      "checklist": ["Build responsive portfolio shell","Add professional experience","Add Mikan Bakery IT Implementation case study","Add TikTok Go voucher rollout case study","Add Career Transition Dashboard project","Add certifications and skills sections","Add resume section","Publish through GitHub and Cloudflare Pages"]
     }
   ],
   "months": [
-    {"month":"September 2026","focus":"Foundation: PM fundamentals + Jira/Confluence + networking","items":["PM project structure + lifecycle","Core PM artifacts","Jira + Confluence workflow","Network+ fundamentals","Weekly applications continue throughout"]},
-    {"month":"October 2026","focus":"CAPM planning + Microsoft 365 + Entra ID","items":["Predictive planning + WBS","Schedule, risk + change control","Microsoft 365 administration","Entra ID identity lab","Weekly applications continue throughout"]},
-    {"month":"November 2026","focus":"Active Directory + Intune + PowerShell + CAPM","items":["Active Directory foundations","GPO + permissions + troubleshooting","Intune fundamentals","PowerShell fundamentals + automation","Weekly applications continue throughout"]},
-    {"month":"December 2026","focus":"Finish CAPM + build PM portfolio","items":["Agile, Scrum + Kanban","Business analysis for CAPM","CAPM practice + weak areas","Mikan PM portfolio package","Weekly applications continue throughout"]},
-    {"month":"January 2027","focus":"CAPM exam + SQL + systems analysis","items":["CAPM final review / exam","SQL foundations","SQL joins + support dataset","Systems analysis fundamentals","Weekly applications continue throughout"]},
-    {"month":"February 2027","focus":"Network+ finish + APIs + interviews","items":["Network+ troubleshooting review","Network+ security + exam prep","REST APIs + JSON + Postman","Interview stories + technical examples","Weekly applications continue throughout"]},
-    {"month":"March 2027","focus":"Heavy applications + conversion review + targeted gaps","items":["Application sprint + resume tuning","Interview sprint","Targeted skills gap week","Offer / pipeline review + next-quarter plan","Weekly applications continue throughout"]}
+    {"month":"September 2026","focus":"Foundation: PM fundamentals + Jira/Confluence + networking","items":["PM project structure + lifecycle","Core PM artifacts","Jira + Confluence workflow","Network+ fundamentals","Capture TikTok Go as a live PM case study","Mikan PM case study reconstruction","Weekly applications continue throughout"]},
+    {"month":"October 2026","focus":"CAPM planning + Microsoft 365 + Entra ID","items":["Predictive planning + WBS","Schedule, risk + change control","Microsoft 365 administration","Entra ID identity lab","Develop Mikan and TikTok Go PM artifacts","Weekly applications continue throughout"]},
+    {"month":"November 2026","focus":"Active Directory + Intune + PowerShell + CAPM","items":["Active Directory foundations","GPO + permissions + troubleshooting","Intune fundamentals","PowerShell fundamentals + automation","Refine portfolio-ready project evidence","Weekly applications continue throughout"]},
+    {"month":"December 2026","focus":"Finish CAPM + build PM portfolio","items":["Agile, Scrum + Kanban","Business analysis for CAPM","CAPM practice + weak areas","Finish Mikan PM portfolio package","Finish TikTok Go PM case study","Plan professional portfolio website","Weekly applications continue throughout"]},
+    {"month":"January 2027","focus":"CAPM exam + SQL + professional portfolio","items":["CAPM final review / exam","Build and publish professional portfolio v1","SQL foundations","SQL joins + support dataset","Systems analysis fundamentals","Weekly applications continue throughout"]},
+    {"month":"February 2027","focus":"Network+ finish + APIs + interviews","items":["Network+ troubleshooting review","Network+ security + exam prep","REST APIs + JSON + Postman","Use portfolio in applications and interviews","Interview stories + technical examples","Weekly applications continue throughout"]},
+    {"month":"March 2027","focus":"Heavy applications + conversion review + targeted gaps","items":["Application sprint + resume tuning","Interview sprint","Portfolio refinement based on target jobs","Targeted skills gap week","Offer / pipeline review + next-quarter plan","Weekly applications continue throughout"]}
   ]
 }
