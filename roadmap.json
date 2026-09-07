@@ -1,1 +1,97 @@
-__PLACEHOLDER__
+{
+  "tasks": [
+    {
+      "id": "sep-w1-1-design-career-project-structure",
+      "month": "September 2026",
+      "week": "Week 1",
+      "day": "Monday",
+      "date": "2026-09-07",
+      "title": "Design career project structure",
+      "category": "PM / CAPM",
+      "minutes": 60,
+      "details": "Define the four workstreams: PM/CAPM, Technical Skills, Portfolio, and Job Search.",
+      "checklist": ["Define 4 workstreams","Confirm March 2027 target","Set weekly time budget around 7 hours","Keep Friday as normal rest day"]
+    },
+    {
+      "id": "sep-w1-2-build-jira-career-transition-project",
+      "month": "September 2026",
+      "week": "Week 1",
+      "day": "Tuesday",
+      "date": "2026-09-08",
+      "title": "Build Jira career-transition project",
+      "category": "PM / CAPM",
+      "minutes": 60,
+      "details": "Create the Jira project that will become the main execution board after this dashboard.",
+      "checklist": ["Create project: Career Transition 2026–27","Create workflow/backlog","Create This Month / This Week","Create In Progress / Blocked / Complete","Add labels for CAPM, Network+, M365, Entra, AD, PowerShell, Portfolio, Applications"]
+    },
+    {
+      "id": "sep-w1-3-build-confluence-workspace",
+      "month": "September 2026",
+      "week": "Week 1",
+      "day": "Wednesday",
+      "date": "2026-09-09",
+      "title": "Build Confluence workspace",
+      "category": "PM / CAPM",
+      "minutes": 60,
+      "details": "Create the documentation side of the project so Jira tracks work while Confluence stores knowledge and artifacts.",
+      "checklist": ["Master Career Roadmap","Weekly Learning Notes","CAPM Notes","Technical Notes","Mikan PM Case Study","Interview Preparation","Lessons Learned"]
+    },
+    {
+      "id": "sep-w1-4-pm-foundations-project-lifecycle",
+      "month": "September 2026",
+      "week": "Week 1",
+      "day": "Thursday",
+      "date": "2026-09-10",
+      "title": "PM foundations: project lifecycle",
+      "category": "PM / CAPM",
+      "minutes": 60,
+      "details": "Learn project vs operations, lifecycle phases, scope, schedule, cost, risk, stakeholders, and deliverables.",
+      "checklist": ["Project vs operations","Initiation","Planning","Execution","Monitoring / control","Closing"]
+    },
+    {
+      "id": "sep-w1-5-networkplus-foundation-session",
+      "month": "September 2026",
+      "week": "Week 1",
+      "day": "Saturday",
+      "date": "2026-09-12",
+      "title": "Network+ foundation session",
+      "category": "Technical",
+      "minutes": 60,
+      "details": "Focus on networking concepts directly useful for support analyst and systems roles.",
+      "checklist": ["OSI vs TCP/IP","LAN vs WAN","Switch vs router vs firewall","DNS","DHCP","IP addressing basics"]
+    },
+    {
+      "id": "sep-w1-6-mikan-project-reconstruction",
+      "month": "September 2026",
+      "week": "Week 1",
+      "day": "Saturday",
+      "date": "2026-09-12",
+      "title": "Mikan project reconstruction",
+      "category": "Portfolio",
+      "minutes": 60,
+      "details": "Reconstruct the Mikan opening from a PM perspective without pretending documents existed at the time.",
+      "checklist": ["Project objective","Your exact responsibilities","Stakeholders","Vendors","Systems deployed","Problems / risks","Go-live outcome"]
+    },
+    {
+      "id": "sep-w1-7-job-search-session",
+      "month": "September 2026",
+      "week": "Week 1",
+      "day": "Sunday",
+      "date": "2026-09-13",
+      "title": "Job-search session",
+      "category": "Job Search",
+      "minutes": 120,
+      "details": "Start the application funnel now rather than waiting until certifications are complete.",
+      "checklist": ["Search PM/project coordinator family","Search IT support/analyst family","Check government/public-sector boards","Submit 2–3 strong applications","Log every application and next step"]
+    }
+  ],
+  "months": [
+    {"month":"September 2026","focus":"Foundation: PM fundamentals + Jira/Confluence + networking","items":["PM project structure + lifecycle","Core PM artifacts","Jira + Confluence workflow","Network+ fundamentals","Weekly applications continue throughout"]},
+    {"month":"October 2026","focus":"CAPM planning + Microsoft 365 + Entra ID","items":["Predictive planning + WBS","Schedule, risk + change control","Microsoft 365 administration","Entra ID identity lab","Weekly applications continue throughout"]},
+    {"month":"November 2026","focus":"Active Directory + Intune + PowerShell + CAPM","items":["Active Directory foundations","GPO + permissions + troubleshooting","Intune fundamentals","PowerShell fundamentals + automation","Weekly applications continue throughout"]},
+    {"month":"December 2026","focus":"Finish CAPM + build PM portfolio","items":["Agile, Scrum + Kanban","Business analysis for CAPM","CAPM practice + weak areas","Mikan PM portfolio package","Weekly applications continue throughout"]},
+    {"month":"January 2027","focus":"CAPM exam + SQL + systems analysis","items":["CAPM final review / exam","SQL foundations","SQL joins + support dataset","Systems analysis fundamentals","Weekly applications continue throughout"]},
+    {"month":"February 2027","focus":"Network+ finish + APIs + interviews","items":["Network+ troubleshooting review","Network+ security + exam prep","REST APIs + JSON + Postman","Interview stories + technical examples","Weekly applications continue throughout"]},
+    {"month":"March 2027","focus":"Heavy applications + conversion review + targeted gaps","items":["Application sprint + resume tuning","Interview sprint","Targeted skills gap week","Offer / pipeline review + next-quarter plan","Weekly applications continue throughout"]}
+  ]
+}
