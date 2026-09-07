@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Career Transition Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">SEP 2026 → MAR 2027</p>
+      <h1>Career Transition Dashboard</h1>
+      <p class="sub">Goal: land a stronger PM-track or IT analyst/support role. Long-term target: government/public-sector IT or technology project management.</p>
+    </div>
+    <button id="resetBtn" class="ghost">Reset progress</button>
+  </header>
+
+  <main>
+    <section class="stats" id="stats"></section>
+
+    <nav class="tabs" aria-label="Views">
+      <button class="tab active" data-view="daily">Daily</button>
+      <button class="tab" data-view="weekly">Weekly</button>
+      <button class="tab" data-view="monthly">Monthly</button>
+    </nav>
+
+    <section id="daily" class="view"></section>
+    <section id="weekly" class="view hidden"></section>
+    <section id="monthly" class="view hidden"></section>
+  </main>
+
+  <template id="taskTemplate">
+    <article class="card task-card">
+      <div class="task-head">
+        <label class="task-title-wrap">
+          <input type="checkbox" class="task-check" />
+          <span class="task-title"></span>
+        </label>
+        <span class="pill minutes"></span>
+      </div>
+      <div class="meta"></div>
+      <p class="details"></p>
+      <details>
+        <summary>Checklist & notes</summary>
+        <div class="checklist"></div>
+        <textarea class="notes" placeholder="Add notes, links, questions, or what you learned..."></textarea>
+      </details>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
